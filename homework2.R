@@ -12,7 +12,7 @@ df <- df[complete.cases(df),]
 df$cyl <- as.factor(df$cyl)
 df$vs <- as.factor(df$vs)
 df$am <- as.factor(df$am)
-
+#I should I more things 
 
 df$pclass <- as.factor(df$pclass)
 df$survived <- as.factor(df$survived)
