@@ -91,6 +91,7 @@ calculate_roc <- function(df, cost_of_fp, cost_of_fn, n=100) {
 }
 
 roc <- calculate_roc(predictions, 1, 2, n = 100)
+## I should add more things here 
 
 
 
